@@ -1,8 +1,8 @@
-# 📊 Dashboard Analitik Ulasan UMKM Jakarta
+# Dashboard Analitik Ulasan UMKM Jakarta
 
 Sistem analisis sentimen ulasan produk UMKM Jakarta pada marketplace Indonesia menggunakan Machine Learning.
 
-## 🏗️ Arsitektur Sistem
+##  Arsitektur Sistem
 
 ```
 umkm-dashboard/
@@ -14,7 +14,7 @@ umkm-dashboard/
 └── README.md
 ```
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer | Teknologi |
 |---|---|
@@ -23,13 +23,13 @@ umkm-dashboard/
 | Frontend | React 18, Vite, Recharts, TailwindCSS |
 | Dataset | Shopee Review Indonesian (Kaggle) |
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ### 1. Persiapan Dataset
 
 Download dataset dari Kaggle:
 ```
-https://www.kaggle.com/datasets/herafajrin/shopee-review-indonesian
+https://www.kaggle.com/datasets/taqiyyaghazi/indonesian-marketplace-product-reviews/data
 ```
 Letakkan file CSV di folder `data/raw/`.
 
@@ -88,7 +88,7 @@ Dashboard: http://localhost:5173
 | GET | `/api/trend` | Tren sentimen per bulan |
 | POST | `/api/predict` | Prediksi sentimen teks baru |
 
-## 🧠 ML Pipeline
+##  ML Pipeline
 
 ```
 Raw Reviews → Text Cleaning → TF-IDF Vectorizer → Random Forest Classifier
