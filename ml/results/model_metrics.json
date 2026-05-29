@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.8563,
+  "cv_mean": 0.8599,
+  "cv_std": 0.0133,
+  "n_train": 664,
+  "n_test": 167,
+  "classes": [
+    0.0,
+    1.0
+  ],
+  "confusion_matrix": [
+    [
+      82,
+      8
+    ],
+    [
+      16,
+      61
+    ]
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": 0,
+    "name": "Keterlambatan Pengiriman",
+    "keywords": [
+      "warna",
+      "sampe",
+      "salah",
+      "abu",
+      "yaa",
+      "warnanya",
+      "cantik",
+      "kirim",
+      "suka",
+      "kecewa"
+    ],
+    "weight": 0.1174
+  },
+  {
+    "id": 1,
+    "name": "Kualitas Tidak Sesuai",
+    "keywords": [
+      "pengiriman",
+      "sesuai",
+      "pas",
+      "bagus",
+      "banget",
+      "bahan",
+      "barang",
+      "cepat",
+      "harga",
+      "gambar"
+    ],
+    "weight": 0.2438
+  },
+  {
+    "id": 2,
+    "name": "Respons CS Lambat",
+    "keywords": [
+      "bagus",
+      "beli",
+      "banget",
+      "harga",
+      "bahannya",
+      "tas",
+      "kualitas",
+      "order",
+      "adem",
+      "bahan"
+    ],
+    "weight": 0.2979
+  },
+  {
+    "id": 3,
+    "name": "Packaging Rusak",
+    "keywords": [
+      "barang",
+      "beli",
+      "jam",
+      "sesuai",
+      "banget",
+      "belanja",
+      "order",
+      "bagus",
+      "kirim",
+      "pcs"
+    ],
+    "weight": 0.15
+  },
+  {
+    "id": 4,
+    "name": "Barang Tidak Lengkap",
+    "keywords": [
+      "kecewa",
+      "warna",
+      "pesan",
+      "kali",
+      "dikirim",
+      "rusak",
+      "barang",
+      "gk",
+      "hitam",
+      "ukuran"
+    ],
+    "weight": 0.1909
+  }
+]

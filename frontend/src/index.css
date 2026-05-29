@@ -1,0 +1,91 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+  }
+
+  .dark body,
+  .dark {
+    @apply bg-slate-900 text-slate-100;
+  }
+}
+
+@layer components {
+  /* ── Cards ── */
+  .card {
+    @apply bg-white rounded-2xl border border-slate-100 shadow-sm;
+  }
+  .dark .card {
+    @apply bg-slate-800 border-slate-700;
+  }
+
+  .card-header {
+    @apply flex items-center gap-2 text-sm font-semibold text-slate-400 mb-4;
+  }
+
+  /* ── Metric card ── */
+  .metric-card {
+    @apply bg-white rounded-2xl border border-slate-100 shadow-sm p-5;
+  }
+  .dark .metric-card {
+    @apply bg-slate-800 border-slate-700;
+  }
+
+  /* ── Button ── */
+  .btn-primary {
+    @apply bg-brand-600 text-white px-5 py-2.5 rounded-xl text-sm font-semibold
+           hover:bg-brand-700 active:scale-95 transition-all cursor-pointer
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply bg-transparent text-slate-500 px-4 py-2 rounded-xl text-sm font-medium
+           hover:bg-slate-100 transition-colors cursor-pointer border border-slate-200;
+  }
+  .dark .btn-ghost {
+    @apply text-slate-400 hover:bg-slate-700 border-slate-600;
+  }
+
+  /* ── Badges ── */
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  .badge-positif {
+    @apply bg-emerald-50 text-emerald-700 border border-emerald-200;
+  }
+  .badge-negatif {
+    @apply bg-red-50 text-red-600 border border-red-200;
+  }
+  .badge-netral {
+    @apply bg-slate-100 text-slate-600 border border-slate-200;
+  }
+  .dark .badge-positif { @apply bg-emerald-900/40 text-emerald-400 border-emerald-700; }
+  .dark .badge-negatif { @apply bg-red-900/40 text-red-400 border-red-700; }
+  .dark .badge-netral  { @apply bg-slate-700 text-slate-300 border-slate-600; }
+
+  /* ── Filter pills ── */
+  .pill {
+    @apply px-4 py-1.5 rounded-full text-sm font-medium cursor-pointer transition-all border;
+  }
+  .pill-active {
+    @apply bg-brand-600 text-white border-brand-600;
+  }
+  .pill-inactive {
+    @apply bg-white text-slate-500 border-slate-200 hover:bg-slate-50;
+  }
+  .dark .pill-inactive {
+    @apply bg-slate-800 text-slate-400 border-slate-600 hover:bg-slate-700;
+  }
+
+  /* ── Section label ── */
+  .section-label {
+    @apply text-xs font-bold text-slate-400 uppercase tracking-widest mb-1;
+  }
+}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+
+# ML Models (besar, jangan commit)
+ml/models/*.pkl
+
+# Data raw (biasanya besar)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
