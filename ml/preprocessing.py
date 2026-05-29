@@ -28,7 +28,6 @@ except LookupError:
 
 STOPWORDS_ID = set(stopwords.words("indonesian"))
 
-# Tambahan stopword informal / slang marketplace
 EXTRA_STOPWORDS = {
     "yg", "dgn", "dr", "utk", "tdk", "ga", "gak", "nggak", "udah",
     "udh", "uda", "sdh", "sdh", "bgt", "aja", "sih", "deh", "dong",

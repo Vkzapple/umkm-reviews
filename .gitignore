@@ -11,6 +11,7 @@ env/
 
 # ML Models (besar, jangan commit)
 ml/models/*.pkl
+ml/notebooks/*
 
 # Data raw (biasanya besar)
 data/raw/*.csv
